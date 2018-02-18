@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+ribbon: 
+  eureka: 
+    enabled: false
+    
+zuul:
+  routes: 
+    somePath:
+      url: http://localhost:8083/
+      path: /dev/**
+  prefix: /api/v1/

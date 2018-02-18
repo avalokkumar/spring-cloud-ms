@@ -1,0 +1,5 @@
+server:
+  contextPath: /api/dev
+  error:
+    include-stacktrace: NEVER
+  port: 9292
