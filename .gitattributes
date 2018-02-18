@@ -1,5 +1,6 @@
 *.gitattributes text
 .gitignore text
 *.md text
-
-*.rb linguist-language=Java
+mvnw.cmd linguist-generated=true
+mvnw linguist-generated=true
+static/* linguist-vendored
